@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'spring'
 gem 'devise', '~>3.2.4'
+gem 'nokogiri', '~>1.5.0'
+gem 'aws-sdk', '~> 1.50.0'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
