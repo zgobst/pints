@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Cabin:400,700);
 
+$icon-font-path: 'bootstrap/';
 $body-bg:                               #ecf0f1;
 $font-family-sans-serif:                'Cabin', sans-serif;
 $navbar-height:                         45px;
@@ -10,6 +11,11 @@ $jumbotron-bg:                                         white;
 
 @import 'bootstrap';
 
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('/assets/glyphicons-halflings-regular.eot');
+    src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
 .center {
      text-align: center;
 }
